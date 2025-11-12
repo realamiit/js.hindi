@@ -10,6 +10,12 @@ accountEmail = "rahul@gmail.com"
 accountPassword = "987654"
 accountCity = "Delhi"
 
+/*
+prefer not to use var keyword as it has function scope
+and may create confusion in large code bases.
+*/
+accountState = "Uttar Pradesh"  // assigning value to declared variable
+
 console.log(accountId);
 console.table({accountId, accountEmail,accountPassword,accountCity,accountState});
 
