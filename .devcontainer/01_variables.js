@@ -20,4 +20,4 @@ console.log(accountId);
 console.table({accountId, accountEmail,accountPassword,accountCity,accountState});
 
 
-//node /workspaces/js.hindi/.devcontainer/01_variables.js
+//node /workspaces/js.hindi/.devcontainer/01_variables.js // to run this file
